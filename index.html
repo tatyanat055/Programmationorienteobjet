@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utilisateurs et Voitures</title>
+  <style>
+    /* Applique une police générale et des styles de base */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #444;
+    }
+
+    /* Conteneur principal pour les utilisateurs et voitures */
+    .section {
+      margin: 20px 0;
+    }
+
+    /* Conteneur pour afficher les cartes */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    /* Style des cartes (utilisateurs et voitures) */
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px 20px;
+      width: 200px;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    /* Style des boutons */
+    .btn {
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Zone d'affichage des actions */
+    #output {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Titre principal -->
+  <h1>Utilisateurs et Voitures</h1>
+
+  <!-- Section des utilisateurs -->
+  <div class="section">
+    <h2>Liste des Utilisateurs</h2>
+    <div id="utilisateurs-container" class="container">
+      <!-- Les utilisateurs seront générés ici -->
+    </div>
+  </div>
+
+  <!-- Section des voitures -->
+  <div class="section">
+    <h2>Liste des Voitures</h2>
+    <div id="voitures-container" class="container">
+      <!-- Les voitures seront générées ici -->
+    </div>
+  </div>
+
+  <!-- Zone d'affichage des actions -->
+  <div id="output">
+    <p>Les actions ou détails apparaîtront ici.</p>
+  </div>
+
+  <!-- Inclusion du script JavaScript -->
+  <script src="objet.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Applique une police générale et des styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Couleur de fond douce */
+    text-align: center; /* Centre le contenu */
+  }
+  
+  /* Style du titre principal */
+  h1 {
+    color: #333; /* Couleur sombre pour le texte */
+    margin-top: 20px;
+  }
+  
+  /* Conteneur pour les boutons */
+  #utilisateurs-container {
+    margin: 20px auto; /* Centrage horizontal et espacement vertical */
+    display: flex; /* Dispose les boutons en ligne */
+    justify-content: center; /* Centre les boutons horizontalement */
+    gap: 10px; /* Espace entre les boutons */
+  }
+  
+  /* Style des boutons */
+  .utilisateur-btn {
+    padding: 10px 20px; /* Taille du bouton */
+    font-size: 16px; /* Taille du texte */
+    background-color: #007BFF; /* Couleur de fond bleu */
+    color: white; /* Texte blanc */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer (main) au survol */
+    transition: background-color 0.3s; /* Animation douce sur la couleur */
+  }
+  
+  /* Changement de couleur au survol du bouton */
+  .utilisateur-btn:hover {
+    background-color: #0056b3; /* Bleu plus foncé */
+  }
+  
+  /* Conteneur pour afficher les actions */
+  #output {
+    margin-top: 30px; /* Espacement au-dessus */
+    padding: 20px; /* Espacement interne */
+    background-color: #fff; /* Fond blanc */
+    border: 1px solid #ddd; /* Bordure grise claire */
+    border-radius: 5px; /* Coins arrondis */
+    width: 50%; /* Largeur de la zone */
+    margin-left: auto; /* Centrage horizontal */
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  }
+  
+  /* Style du texte affiché dans la zone des actions */
+  #output p {
+    font-size: 18px; /* Taille du texte */
+    color: #555; /* Couleur gris foncé */
+  }
+  
